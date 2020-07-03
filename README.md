@@ -13,7 +13,7 @@
 - Hooks & Props
 ...
 
-### Installation
+## Installation
 
 npm install
 
