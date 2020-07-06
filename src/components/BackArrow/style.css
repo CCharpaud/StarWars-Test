@@ -1,0 +1,13 @@
+/* BackArrow */
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.backArrowContainer {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 25px;
+  color: white;
+  font-family: "Bangers", cursive;
+}

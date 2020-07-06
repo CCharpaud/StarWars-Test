@@ -1,0 +1,29 @@
+/* Personage Page  */
+
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.title > span {
+  color: yellow;
+  font-size: 60px;
+  font-family: "Bangers", cursive;
+}
+
+.descriptionList {
+  padding-top: 50px;
+}
+
+.descriptionList > span {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  font-family: "Bangers", cursive;
+  margin-top: 10px;
+}

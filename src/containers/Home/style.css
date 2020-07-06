@@ -1,0 +1,69 @@
+/* HOME  */
+
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+.wrapper-home {
+  width: 90vw;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.background {
+  height: 600px;
+  background-size: cover;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+  font-family: "Bangers", cursive;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.search-box input {
+  width: 300px;
+  height: 44px;
+  padding-left: 15px;
+  margin-right: 20px;
+  font-size: 30px;
+  background-color: #f2f0f0;
+  color: #80909f;
+  border: none;
+  font-family: "Bangers", cursive;
+  text-align: center;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.listOfPerso {
+  flex: 1;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.listName {
+  color: white;
+  font-family: "Bangers", cursive;
+  font-size: 40px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* HOME - Partie Offers */
